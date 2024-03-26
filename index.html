@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Story</title>
+    <link rel="icon" type="image/icon" href="image/fav.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> Grocery</a>
+
+<nav class="navbar">
+    <a href="home">Home</a>
+    <a href="features">Features</a>
+    <a href="products">Products</a>
+    <a href="categories">Categories</a>
+</nav>
+
+
+
+<div class="icons">
+    <div class="fa fa-bars" id="menu-btn"></div>
+    <div class="fa fa-search" id="search-btn"></div>
+    <div class="fa fa-shopping-cart" id="cart-btn"></div>
+    <div class="fa fa-user" id="login-btn"></div>
+</div>
+
+<form class="search-form">
+    <input type="search" id="search-box" placeholder="Search Here...">
+    <label for="search-box" class="fa fa-search"></label>
+</form>
+
+<div class="shopping-cart">
+    <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="image/bread.jpg" width="120" height="100">
+        <div class="content">
+            <h3>bread</h3>
+            <span class="price">$2.70/-</span>
+            <span class="quantity">Qty : 1</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="image/avocado.jpg" width="120" height="100">
+        <div class="content">
+            <h3>Avocado</h3>
+            <span class="price">$2.90/-</span>
+            <span class="quantity">Qty : 2</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fa fa-trash"></i>
+        <img src="image/almond.jpg" width="120" height="100">
+        <div class="content">
+            <h3>Almond</h3>
+            <span class="price">$3.40/-</span>
+            <span class="quantity">Qty : 1</span>
+        </div>
+    </div>
+    <div class="total">Total : $8.10/-</div>
+    <a href="#" class="btn">Buy Now</a>
+</div>
+
+<form action="#" class="login-form" method="post">
+    <h3>Login Now</h3>
+    <input type="email" placeholder=" your email" class="box">
+    <input type="password" placeholder=" your password" class="box">
+    <p>Forgot your Password Here <a href="#">Click Here</a></p>
+    <p>Don't have an Account <a href="#">Create Now</a></p>
+    <input type="submit" value="login now" class="btn">
+
+</form>
+    </header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Discover the Culinary Delights of <span>Kitchen Story</span></h3>
+        <p>Kitchen Story offers a seamless online shopping experience for all your basic food needs. From fresh produce to pantry staples, explore our diverse selection and elevate your cooking journey with ease
+        <a href="#" class="btn">Shop now</a>
+        </p>
+    </div>
+</section>
+
+
+<section class="features" id="features">
+    <h1 class="heading">Our <span>Features</span></h1>
+
+<div class="box-container">
+    <div class="box">
+        <img src="image/allfood.jpg" height="200" width="250">
+        <h3>Fresh And Organic</h3>
+        <p>Explore our collection of organic and fresh produce, curated to elevate your culinary experience. Savor the natural goodness with every bite, knowing you're enjoying the finest quality ingredients.</p>
+        <a href="#" class="btn">Read Mode</a>
+    </div>
+
+
+    <div class="box">
+        <img src="image/delivey.jpg" height="200" width="250">
+        <h3>Fast Delivery</h3>
+        <p>Experience swift doorstep delivery with Kitchen Story's efficient service. Get your essentials in no time, ensuring convenience and freshness at your doorstep.</p>
+        <a href="#" class="btn">Read Mode</a>
+    </div>
+
+
+    <div class="box">
+        <img src="image/onlinepay.jpg" height="200" width="250">
+        <h3>Online Payment</h3>
+        <p>Securely pay for your culinary delights with Kitchen Story's seamless online payment system. Enjoy hassle-free transactions and peace of mind while shopping for your favorite food items.</p>
+        <a href="#" class="btn">Read Mode</a>
+    </div>
+
+</div>
+</section>
+
+<section class="products" id="products">
+    <h1 class="heading"> Our<span>Products</span></h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/blackgrap.jpg" width="250" height="200">
+                <h1>Black Grape</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+                </div>
+                 <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image/orange1.jpg" width="250" height="200">
+                <h1>Fresh Orange</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image/apple1.jpg" width="250" height="200">
+                <h1>Fresh Apple</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/almond.jpg" width="250" height="200">
+                <h1>Almond</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/coffee.jpg" width="250" height="200">
+                <h1>Coffee</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+        
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/cheese.jpg" width="250" height="200">
+                <h1>Cheese</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/cucumber.jpg" width="250" height="200">
+                <h1>Cucumber</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image/oats.jpg" width="250" height="200">
+                <h1>Oats</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+    
+
+    <div class="swiper product-slider">
+
+     <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+            <img src="image/banana.jpg" width="250" height="200">
+            <h1>Banana</h1>
+            <div class="price">$10.75/- Per Kilo</div>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            <a href="#" class="btn">Add To Cart</a>
+        </div>
+
+            <div class="swiper-slide box">
+                <img src="image/avocado.jpg" width="250" height="200">
+                <h1>Avocado</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/wheat.jpg" width="250" height="200">
+                <h1>Wheat</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/kiwi.jpg" width="250" height="200">
+                <h1>Kiwi</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/ginger.jpg" width="250" height="200">
+                <h1>Ginger</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image/bread.jpg" width="250" height="200">
+                <h1>Bread</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+        
+            <div class="swiper-slide box">
+
+                <img src="image/black pepper.jpg" width="250" height="200">
+                <h1>Black Pepper</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                    <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+             <div class="swiper-slide box">
+                <img src="image/carrot.jpg" width="250" height="200">
+                <h1>Carrot</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+    
+
+        <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/corn1.jpg" width="250" height="200">
+                <h1>Corn</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/groundnut.jpg" width="250" height="200">
+                <h1>Groundnut</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/potato.jpg" width="250" height="200">
+                <h1>Potato</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/rice.jpg" width="250" height="200">
+                <h1>Rice</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+            <img src="image/tomato1.jpg" width="250" height="200">
+                <h1>Tomato</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image/capsicum.jpg" width="250" height="200">
+                <h1>Capsicum</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/jeera.jpg" width="250" height="200">
+                <h1>Jeera</h1>
+                <div class="price">$10.75/- Per Kilo</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="categories" id="categories">
+    <h1 class="heading">Product<span>Categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/freshvegg.jpg" width="250" height="200">
+            <h3>Vegetables</h3>
+            <p>Upto 45% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/freshfruit.jpg" width="250" height="200">
+            <h3>Fresh Fruits</h3>
+            <p>Upto 30% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/diary.jpg" width="250" height="200">
+            <h3>Dairy Products</h3>
+            <p>Upto 25% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/meat.jpg" width="250" height="200">
+            <h3>Fresh Meat</h3>
+            <p>Upto 30% Off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Grocery <i class="fa fa-shopping-basket"></i></h3>
+            <p>Elevating wellness through natural goodness. Experience the difference with our premium organic offerings</p>
+
+            <div class="share">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <h3>Contact Info </h3>
+            <a href="#" class="links"><i class="fa fa-phone"></i> +91 9876543210</a>
+            <a href="#" class="links"><i class="fa fa-phone"></i> +91 8912345670</a>
+            <a href="#" class="links"><i class="fa fa-envelope"></i>kitchenstory@gmail.com</a>
+            <a href="#" class="links"><i class="fa fa-map-marker"></i>Bangalore,India-560034</a>
+            
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Home</a>               
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Features</a>    
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Products</a>    
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Categories</a>    
+        </div>
+        
+
+        <div class="box">
+            <h3>NewsLetter</h3>
+            <p>Subscribe for latest Information</p> 
+            <input type="email" placeholder="your Email" class="email">
+            <input type="submit" value="Subscribe" class="btn">
+            <img src="image/last.jpg" width="230" height="60" class="pay">
+        </div>
+    </div>
+
+
+    <div class="credit">Created by <span>Kruthika</span> | All Rights Reserved</div>
+</section>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+    
+</body>
+</html>
